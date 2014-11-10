@@ -1,3 +1,4 @@
+**Standard case: len = 5**
 
 [ 15, 57, 1, 67, 51 ]
 len = 5
@@ -54,21 +55,73 @@ count = 5 (can exit now!)
 (while) 5 !< 5
 BREAK
 
-——
-
-Could set if (count >= len) too…
-
-Test with same data set…
-Same - but this time in i=3 prints Done! statement - doesn’t check next while condition…
-So is quicker when last element to swap is earlier in array
-
-———
+—————————————————————————
 
 When 2, sorted elements:
 - Takes 1 full pass, then exits at start of second
 
+data = [ 5, 7 ]
+
+len = 2
+count = 0
+
+(while) 0 < 2
+A pass…
+(for) i=0
+count = 1
+
+(while) 1 < 2
+A pass…
+(for) i=0
+count = 2
+2>=2 At array element 0, BREAK
+
+
+—————————————————————————
+
 When 2 unsorted:
 - Takes 2 full passes, exits at start of third
+
+data = [ 7, 5 ]
+len = 2
+count = 0
+
+(while) 0 < 2
+A pass…
+
+(for) i=0
+count = 1
+swap 7, 5 [ 5, 7 ] *DONE*
+count = 0
+
+(while) 0 < 2
+A pass…
+
+(for) i=0
+count = 1
+
+(while) 1 < 2
+A pass…
+
+(for) i=0
+count = 2
+2 >= 2 At array element 0, BREAK
+
+
+——————————————————————————————————
+
+Array contains 1 value (accidental input)
+data = [ 6 ]
+
+len = 1
+count = 0
+
+(while) 0 < 1
+A pass…
+No valid values of i, for loop never runs, count never changes
+“A pass…” prints forever.
+
+
 
  
 
