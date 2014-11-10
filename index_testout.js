@@ -48,16 +48,19 @@ function bubble( arr ) {
 
 	var len = arr.length,
 		temp = 0,
-		count = 0;
+		count = 0,
+		passes = 0;
 
 	while ( count < len ) {
+		//console.log("A pass...");
 
 		for(var i = 0; i < len-1; i++) {
 			// Count elements checked since last swap:
 			count++
 
-			// Return to position of last swap with no further swaps, FINISHED!
+			// If passed each element once with no further swaps, FINISHED!
 			if ( count >= len ) { 
+				console.log( passes + (i+1)/len );
 				break; 
 			}
 
@@ -73,6 +76,8 @@ function bubble( arr ) {
 				count = 0;
 			}
 		} 
+
+		passes++;
 
 	}
 
