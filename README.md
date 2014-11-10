@@ -23,5 +23,5 @@ In directory `/testing`:
 + Edit array size and desired number of runs in index_examples_testrun.js.
 + To run,
 ```bash
-node index_examples_testrun.js’
+node index_examples_testrun.js
 ```bash
