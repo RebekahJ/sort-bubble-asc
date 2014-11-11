@@ -3,9 +3,6 @@ sort-bubble-asc
 
 Sort array of numeric values into ascending order using a bubble sort method.
 
-## TODO
-+ Add asc/desc sort option? (Change repo name)
-
 ## Performance
 
 Over 100,000 runs, 
