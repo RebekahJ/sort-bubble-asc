@@ -1,6 +1,5 @@
 TODO
 ====
 
-+ Add usage to readme
-+ Make tests
++ Add usage info to readme
 + Add asc/desc sort option? (Change repo name)
