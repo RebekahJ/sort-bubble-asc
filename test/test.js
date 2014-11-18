@@ -60,7 +60,6 @@ describe( 'sort-bubble-asc', function tests() {
 	it( 'should sort the array into ascending order', function test() {
 		var data, expected;
 
-		// quartile indices are integers
 		data = [ 14, -7, 4, 76, 30 ];
 		expected = [ -7, 4, 14, 30, 76 ];
 
