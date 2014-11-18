@@ -49,7 +49,11 @@ describe( 'sort-bubble-asc', function tests() {
 	it( 'should throw an error if provided an array of < 2 elements', function test() {
 		var data = [ 3 ];
 
-		expect( bubble( data ) ).to.throw( TypeError );
+		function foo(){
+			bubble( data );
+		}
+
+		expect( foo ).to.throw( Error );
 
 	});
 
