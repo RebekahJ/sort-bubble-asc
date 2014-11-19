@@ -3,8 +3,6 @@ sort-bubble-asc
 
 [![Build Status][travis-image]][travis-url]
 
-> Sort a numeric into ascending order using a bubble sort method.
-
 ### bubble( arr )
 
 Sorts an unsorted numeric array into ascending order using a [bubble](http://en.wikipedia.org/wiki/Bubble_sort) sort. 
