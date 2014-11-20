@@ -24,7 +24,7 @@ $ node ./examples/index.js
 
 ## Notes
 
-For an array containing n elements, after performing the last swap, algorithm performs n further comparisons before concluding that array is sorted.
+For an array containing n elements, after performing the last swap, the algorithm performs n further comparisons before concluding that array is sorted.
 
 Over 100,000 runs, 
 
@@ -43,6 +43,18 @@ In directory `/testing`:
 ```bash
 node index_examples_testrun.js
 ```
+
+### Performance
+
+For an unsorted array of size n, the time to sort the array using bubble sort is:
+
+| *n*	        | *Time (ms)*   |
+| --------------| :------------:|
+| 5             | 10.7          |
+| 50            | 11.4          |
+| 500           | 14.6          |
+| 5000          | 167           |
+| 50000         | 15778         |
 
 ## Tests
 
