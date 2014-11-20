@@ -89,8 +89,5 @@ $ make view-cov
 Copyright &copy; 2014. Rebekah Smith.
 
 
-[travis-image]: http://img.shields.io/travis/compute-io/lmidmean/master.svg
-[travis-url]: https://travis-ci.org/compute-io/lmidmean
-
-[coveralls-image]: https://img.shields.io/coveralls/compute-io/lmidmean/master.svg
-[coveralls-url]: https://coveralls.io/r/compute-io/lmidmean?branch=master
+[travis-image]: http://img.shields.io/travis/RebekahJ/sort-bubble-asc/master.svg
+[travis-url]: https://travis-ci.org/RebekahJ/sort-bubble-asc
