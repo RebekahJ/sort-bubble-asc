@@ -1,7 +1,7 @@
 {
-  "name": "sort-bubble",
+  "name": "sort-bubble-asc",
   "version": "0.0.0",
-  "description": "Sort module ",
+  "description": "Sort an array of numeric values into ascending order using a bubble sort.",
   "author": {
     "name": "Rebekah Smith",
     "email": "rebekahjs17@gmail.com"
