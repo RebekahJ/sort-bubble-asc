@@ -1,7 +1,7 @@
 sort-bubble-asc
 ===============
 
-[![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url]
+[![Build Status][travis-image]][travis-url]  [![Coverage Status](https://coveralls.io/repos/RebekahJ/sort-bubble-asc/badge.png)](https://coveralls.io/r/RebekahJ/sort-bubble-asc)
 
 ### bubble( arr )
 
@@ -92,5 +92,4 @@ Copyright &copy; 2014. Rebekah Smith.
 [travis-image]: http://img.shields.io/travis/RebekahJ/sort-bubble-asc/master.svg
 [travis-url]: https://travis-ci.org/RebekahJ/sort-bubble-asc
 
-[coveralls-image]: https://img.shields.io/coveralls/RebekahJ/sort-bubble-asc/master.svg
-[coveralls-url]: https://coveralls.io/r/RebekahJ/sort-bubble-asc?branch=master
+
